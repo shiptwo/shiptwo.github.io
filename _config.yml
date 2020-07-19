@@ -1,7 +1,7 @@
 # Site
 name: "ShipTwo"
 title: "ShipTwo"
-description: "A blog of my journey as Software Engineer & the things I like"
+description: "My experiences, learnings & journey as Software Professional"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /

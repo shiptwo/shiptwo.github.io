@@ -1,5 +1,4 @@
 # ShipTwo
-
 My personal blog on learnings & experiences I have as Software Professional. The stuff here would be mostly be on Java & JavaScript & some bits of Python.
 
 ## Reaching me

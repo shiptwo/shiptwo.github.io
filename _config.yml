@@ -1,7 +1,7 @@
 # Site
 name: "ShipTwo"
 title: "ShipTwo"
-description: "My experiences, learnings & journey as Software Professional"
+description: "Experiences, learnings & journey as Software Professional"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
@@ -18,9 +18,9 @@ authors:
     name: Nilesh
     display_name: "Nilesh Parab"
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
+    email: #wowthemesnet@gmail.com
     web: https://shiptwo.github.io
-    twitter: https://twitter.com/wowthemesnet
+    twitter: #https://twitter.com/wowthemesnet
     description: "I love building things using Java & JavaScript. Professionally I am more focussed in eCommerce. Music. Motorcycling."
 
 # Plugins

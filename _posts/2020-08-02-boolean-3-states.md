@@ -8,7 +8,6 @@ comments: false
 courtesy: '<span>Photo by <a href="https://unsplash.com/@florenciaviadana?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Florencia Viadana</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
 read_time: 4
 ---
-
 It's wonderful to know how we can use `wrappers` & `primitives` to our benefit. This was something I found while reading through Oracle Java Tutorials.
 
 So without further due, here is the thing.

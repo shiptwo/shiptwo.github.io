@@ -32,7 +32,7 @@ It takes a function that is run on each element of the array to return a new arr
 
 ## :computer: Some actuals
 
-Consider an example, we have an array of numbers & we want to multiply each element by 2 (square function in Maths).
+Consider an example, we have an array of numbers & we want to find square of each of them.
 ```javascript
 // create array of numbers
 const numbers = [ 2, 3, 4, 5 ];

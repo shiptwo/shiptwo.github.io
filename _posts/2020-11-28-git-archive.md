@@ -16,7 +16,7 @@ Usually we used to `zip` the folder which would then complain while `unzip` with
 
 ## :punch: Enter 'git archive' 
 [`archive`](https://git-scm.com/docs/git-archive) is useful to create an archive from your local / remote repository.
-```shell
+```bash
 git archive --format=zip --output=archive-20201128 HEAD
 ```
 
@@ -42,7 +42,7 @@ Here is what you need to do:
     - I referred GitHub REST API to [download archive](https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#download-a-repository-archive-zip)
     - Then passed the token to [Authenticate API request via Personal access tokens](https://docs.github.com/en/free-pro-team@latest/rest/overview/other-authentication-methods#via-oauth-and-personal-access-tokens)
     - This is the command I finally ran:
-      ```shell
+      ```bash
       curl -L -u <username>:<personal-token> -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/<org-or-username>/<repository>/zipball/<branch> > <output-zip-archive>.zip
       ```
 - You can use the personal token as a password as well

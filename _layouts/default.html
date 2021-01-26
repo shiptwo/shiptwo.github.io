@@ -70,16 +70,21 @@ ga('send', 'pageview');
     ================================================== -->
    
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <img class="site-logo" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <span class="site-title">{{ site.title }}</span>
+        <div class="sitetag">
+            {{ site.description }}
+        </div>
     </a>  
+ 
    
 
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
-        <p class="sitetag">
+        <!--<p class="sitetag">
             {{ site.description }}
-        </p>
+        </p>-->
     {% endif %}
 
     <!-- Content
